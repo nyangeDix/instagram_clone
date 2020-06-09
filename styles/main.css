@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.insta-clone {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+header, header .icon-center-header ul, header .profile-messages ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .icon-center-header ul li, header .profile-messages ul {
+    padding: 15px;
+    text-decoration: none;
+}
+
+header .logo img {
+    cursor: pointer;
+}
+
+header .icon-center-header ul li img, header .profile-messages ul li img {
+    width: 25px;
+    position: relative;
+    bottom: 12px;
+    cursor: pointer;
+}
+
+header .profile-messages ul li:nth-child(2) {
+    padding: 10px;
+}
+
+header .profile-messages ul li:nth-child(2) img{
+    width: 30px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 25px;
+}
+
+.insta-status .status-list {
+    padding: 20px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    text-align: center;
+}
+
+header .profile-messages .message-icon {
+    padding-left: 80px;
+    padding-right: 25px;
+}
+
+.insta-status .status-list img {
+    border-radius: 100px;
+    height: 80px;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid #b73046;
+}
+
+.insta-status .status-list .status-personal{
+    position: relative;
+}
+
+.insta-status .status-list .status-personal .plus {
+    position: absolute;
+    right: 5px;
+    border: unset;
+    top: 45px;
+    height: 45px;
+}
+
+.insta-status .status-list .status-personal .profile-status {
+    border: 2px solid rgb(158, 158, 158);
+}
+
+.insta-status .status-list .item-next img {
+    border: 2px solid black;
+}
+
+.newsfeed {
+    margin-top: 60px;
+}
+
+.newsfeed .news-container {
+    display: flex;
+    justify-content: center;
+}
+
+.newsfeed .news-container .news-feed-item {
+    padding: 10px;
+}
+
+.newsfeed .news-container .news-feed-item img {
+    height: 80vh;
+    cursor: pointer;
+}
+
+.newsfeed-content {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.newsfeed-content > .left-content img {
+    height: 72px !important;
+    border-radius: 100px;
+    position: relative;
+    top: 9px;
+    padding: 5px;
+    border: 2px solid #b73046;
+    cursor: pointer;
+}
+
+.newsfeed-content > .right-content img {
+    height: 20px !important; 
+}
+
+.newsfeed-content .left-content, .newsfeed-content .right-content {
+    display: flex;
+}
+
+.username {
+    margin-left: 20px;
+}
+
+.username .display-name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.username .time {
+    color: rgb(185, 185, 185);
+    position: relative;
+    bottom: 20px;
+}
+
+.newsfeed-content .right-content {
+    margin-left: auto;
+    justify-content: space-between;
+
+}
+
+.right-content img {
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    top: 20px;
+}
+
+.likes {
+    font-weight: bolder;
+    padding: 18px;
+}
